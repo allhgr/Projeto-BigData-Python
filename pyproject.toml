@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bigdata"
+version = "0.1.0"
+description = ""
+authors = ["B4aidu_ <allison.htompson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+numpy = "^2.1.1"
+streamlit = "^1.38.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
